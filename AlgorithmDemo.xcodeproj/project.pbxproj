@@ -12,6 +12,7 @@
 		690FD77B223F772E000FDDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FD779223F772E000FDDB1 /* Main.storyboard */; };
 		690FD77D223F772F000FDDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690FD77C223F772F000FDDB1 /* Assets.xcassets */; };
 		690FD780223F772F000FDDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */; };
+		690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FD787223F7862000FDDB1 /* SolutionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		690FD77C223F772F000FDDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690FD77F223F772F000FDDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690FD781223F772F000FDDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690FD787223F7862000FDDB1 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
+		690FD78B223F837E000FDDB1 /* AlgorithmDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				690FD775223F772E000FDDB1 /* AppDelegate.swift */,
 				690FD777223F772E000FDDB1 /* ViewController.swift */,
+				690FD787223F7862000FDDB1 /* SolutionViewController.swift */,
 				690FD779223F772E000FDDB1 /* Main.storyboard */,
 				690FD77C223F772F000FDDB1 /* Assets.xcassets */,
 				690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */,
 				690FD781223F772F000FDDB1 /* Info.plist */,
+				690FD78B223F837E000FDDB1 /* AlgorithmDemo-Bridging-Header.h */,
 			);
 			path = AlgorithmDemo;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				TargetAttributes = {
 					690FD771223F772E000FDDB1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -136,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				690FD778223F772E000FDDB1 /* ViewController.swift in Sources */,
+				690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */,
 				690FD776223F772E000FDDB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +289,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlgorithmDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,7 +299,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.AlgorithmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmDemo/AlgorithmDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,6 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AlgorithmDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,7 +320,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lab.myunggu.AlgorithmDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "AlgorithmDemo/AlgorithmDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
