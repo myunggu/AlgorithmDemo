@@ -89,6 +89,7 @@ class BestAlbum: NSObject {
             return firstSum > secondSum
         }
         
+        // 장르별 최대 2개씩 앨범에 담기
         var albumList = Array<Int>()
         for genre in sortedGenres {
             for (index, element) in genre.value.enumerated() {
