@@ -14,6 +14,8 @@
 		690FD780223F772F000FDDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */; };
 		690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FD787223F7862000FDDB1 /* SolutionViewController.swift */; };
 		69112522261EF44000B2E1B3 /* BestAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69112521261EF44000B2E1B3 /* BestAlbum.swift */; };
+		691B26B42626B6AB00A822D5 /* Camouflage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691B26B32626B6AB00A822D5 /* Camouflage.swift */; };
+		69D75198262962C900F87E4D /* TruckPassingBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D75197262962C900F87E4D /* TruckPassingBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		690FD787223F7862000FDDB1 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
 		690FD78B223F837E000FDDB1 /* AlgorithmDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		69112521261EF44000B2E1B3 /* BestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestAlbum.swift; sourceTree = "<group>"; };
+		691B26B32626B6AB00A822D5 /* Camouflage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camouflage.swift; sourceTree = "<group>"; };
+		69D75197262962C900F87E4D /* TruckPassingBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckPassingBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				690FD777223F772E000FDDB1 /* ViewController.swift */,
 				690FD787223F7862000FDDB1 /* SolutionViewController.swift */,
 				69112521261EF44000B2E1B3 /* BestAlbum.swift */,
+				691B26B32626B6AB00A822D5 /* Camouflage.swift */,
+				69D75197262962C900F87E4D /* TruckPassingBridge.swift */,
 				690FD779223F772E000FDDB1 /* Main.storyboard */,
 				690FD77C223F772F000FDDB1 /* Assets.xcassets */,
 				690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */,
@@ -146,6 +152,8 @@
 			files = (
 				690FD778223F772E000FDDB1 /* ViewController.swift in Sources */,
 				69112522261EF44000B2E1B3 /* BestAlbum.swift in Sources */,
+				69D75198262962C900F87E4D /* TruckPassingBridge.swift in Sources */,
+				691B26B42626B6AB00A822D5 /* Camouflage.swift in Sources */,
 				690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */,
 				690FD776223F772E000FDDB1 /* AppDelegate.swift in Sources */,
 			);

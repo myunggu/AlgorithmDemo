@@ -10,6 +10,7 @@ import UIKit
 
 
 /*
+ 제목 : 베스트앨범
  출제소스 : https://programmers.co.kr/learn/courses/30/lessons/42579?language=swift
  
  문제 설명
@@ -44,8 +45,8 @@ import UIKit
 class BestAlbum: NSObject {
     
     func doTest() {
-        let genres: Array<String> = ["classic", "pop", "classic", "classic", "pop"]
-        let plays: Array<Int> = [500, 600, 150, 800, 2500];
+        let genres = ["classic", "pop", "classic", "classic", "pop"]
+        let plays = [500, 600, 150, 800, 2500];
         let result = solution(genres, plays)
         print(result)
     }
