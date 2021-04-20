@@ -58,29 +58,27 @@ class Camouflage: NSObject {
     }
     
     func solution(_ clothes:[[String]]) -> Int {
+        
+        // 의상의 종류
         let clothKindSet: Set<String> = Set(clothes.map { $0[1] })
         var clothesDic: Dictionary<String,[String]> = [:]
         for clothKind in clothKindSet {
             clothesDic[clothKind] = []
         }
         
+        // 의상의 이름을 종류에 맞게 분류
         for cloth in clothes {
             let clothName = cloth[0]
             let clothKind = cloth[1]
             clothesDic[clothKind]?.append(clothName)
         }
         
-        print(clothesDic)
-        
-        var total = 0
+        // 조합 경우의 수 계산 ('수학의 정석' 참조)
+        //종류A = 4가지, 종류B=3가지, 종류C=2가지인 경우, 경우의 수 = 5C1*4C1*3C1-1
+        var total = 1
         for (_, value) in clothesDic {
-            if total == 0 {
-                total = value.count
-            } else {
-                total = total * value.count
-            }
+            total *= (value.count+1)
         }
-        
-        return total
+        return (total - 1)
     }
 }
