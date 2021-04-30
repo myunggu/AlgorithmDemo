@@ -14,8 +14,11 @@
 		690FD780223F772F000FDDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */; };
 		690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FD787223F7862000FDDB1 /* SolutionViewController.swift */; };
 		69112522261EF44000B2E1B3 /* BestAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69112521261EF44000B2E1B3 /* BestAlbum.swift */; };
+		6918E7EE2632B4A4007DABB6 /* NExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6918E7ED2632B4A4007DABB6 /* NExpress.swift */; };
 		691B26B42626B6AB00A822D5 /* Camouflage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691B26B32626B6AB00A822D5 /* Camouflage.swift */; };
 		69734B72262EB1A40059D9C0 /* FunctionDevelopment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69734B71262EB1A40059D9C0 /* FunctionDevelopment.swift */; };
+		69D3BBBE262FBF5E006A93AC /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D3BBBD262FBF5E006A93AC /* Printer.swift */; };
+		69D3BBC2262FDE81006A93AC /* DiskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D3BBC1262FDE81006A93AC /* DiskController.swift */; };
 		69D75198262962C900F87E4D /* TruckPassingBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D75197262962C900F87E4D /* TruckPassingBridge.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +33,11 @@
 		690FD787223F7862000FDDB1 /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
 		690FD78B223F837E000FDDB1 /* AlgorithmDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		69112521261EF44000B2E1B3 /* BestAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestAlbum.swift; sourceTree = "<group>"; };
+		6918E7ED2632B4A4007DABB6 /* NExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NExpress.swift; sourceTree = "<group>"; };
 		691B26B32626B6AB00A822D5 /* Camouflage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camouflage.swift; sourceTree = "<group>"; };
 		69734B71262EB1A40059D9C0 /* FunctionDevelopment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDevelopment.swift; sourceTree = "<group>"; };
+		69D3BBBD262FBF5E006A93AC /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		69D3BBC1262FDE81006A93AC /* DiskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskController.swift; sourceTree = "<group>"; };
 		69D75197262962C900F87E4D /* TruckPassingBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckPassingBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +78,9 @@
 				691B26B32626B6AB00A822D5 /* Camouflage.swift */,
 				69D75197262962C900F87E4D /* TruckPassingBridge.swift */,
 				69734B71262EB1A40059D9C0 /* FunctionDevelopment.swift */,
+				69D3BBBD262FBF5E006A93AC /* Printer.swift */,
+				69D3BBC1262FDE81006A93AC /* DiskController.swift */,
+				6918E7ED2632B4A4007DABB6 /* NExpress.swift */,
 				690FD779223F772E000FDDB1 /* Main.storyboard */,
 				690FD77C223F772F000FDDB1 /* Assets.xcassets */,
 				690FD77E223F772F000FDDB1 /* LaunchScreen.storyboard */,
@@ -156,7 +165,10 @@
 				690FD778223F772E000FDDB1 /* ViewController.swift in Sources */,
 				69112522261EF44000B2E1B3 /* BestAlbum.swift in Sources */,
 				69D75198262962C900F87E4D /* TruckPassingBridge.swift in Sources */,
+				6918E7EE2632B4A4007DABB6 /* NExpress.swift in Sources */,
 				69734B72262EB1A40059D9C0 /* FunctionDevelopment.swift in Sources */,
+				69D3BBBE262FBF5E006A93AC /* Printer.swift in Sources */,
+				69D3BBC2262FDE81006A93AC /* DiskController.swift in Sources */,
 				691B26B42626B6AB00A822D5 /* Camouflage.swift in Sources */,
 				690FD788223F7862000FDDB1 /* SolutionViewController.swift in Sources */,
 				690FD776223F772E000FDDB1 /* AppDelegate.swift in Sources */,
